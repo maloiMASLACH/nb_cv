@@ -1,0 +1,88 @@
+html {
+  background-color: bisque;
+}
+a {
+  text-decoration: none;
+  color: rgb(91, 60, 116);
+}
+.head_side {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 5%;
+  border-radius: 0 30px 30px 0;
+}
+.head_side:hover{
+    transform: scale(1.01);
+}
+.head_side h2 {
+  font-size: 300%;
+  text-transform: uppercase;
+  padding: 0 3%;
+  border-right: solid 1px black;
+}
+.head_side img {
+  width: 15%;
+  border-radius:0 10% 10% 0;
+}
+.head_side ul {
+  display: flex;
+  padding-top: 5%;
+  list-style: none;
+}
+.head_side ul img {
+  width: 40%;
+  
+}
+.head_side ul img:hover{
+    animation: poop 1s;
+}
+@keyframes poop {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    }
+.main_part {
+  display: flex;
+  margin: 2% 5%;
+  justify-content: center;
+}
+.left_side {
+  margin-right: 30px;
+  width: 100%;
+}
+.left_side div {
+    margin-bottom: 20px;
+  padding: 3%;
+  background-color: white;
+}
+.left_side div:hover{
+    transform: scale(1.01);
+}
+.right_side {
+  width: 130%;
+}
+.right_side div {
+  padding: 3%;
+  background-color: white;
+}
+.right_side div:hover{
+    transform: scale(1.01);
+}
+.skills ul {
+  list-style: none;
+  text-transform: uppercase;
+}
+.skills ul li {
+  margin: 5% auto;
+}
+
+.about_me{
+    margin-bottom: 20px;
+}
